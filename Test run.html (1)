@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>
+        Welcome to my blogging site!
+      </title>
+      <link rel="stylesheet"
+       href="style.css" >
+       <style>
+      #01 { 
+          color: navy;
+      }
+      #02 {
+          color: green;
+           }
+       table {
+          border: 1px solid black
+          border-collapse:collapse;
+       }
+       th, td {
+          border: 1px solid black;
+          padding: 4px;
+       }
+       ol>li { 
+           color: cyan;
+       }
+       ul > li { 
+           color: purple;
+       }
+       a[href="https://google.com"] {
+           color: green;
+            }
+        button { 
+            width: 200px;
+            height: 50px;
+            font-size: 15px;
+            background-color: yellow;
+            border: 2px solid black;
+            font-family: cursive;
+        }
+        button:hover {
+             background-color: rosybrown;
+             }
+        #point { 
+            display: flex;
+            flex-wrap: warp;
+        }
+        #point >  div {
+           background-color: aqua; 
+            margin: 35x;
+            padding: 5px;
+            font-family: cursive;
+            font-size: 15px;
+            width: 300px;
+            border: 4px solid white;
+        }
+        
+       </style>
+  </head>
+  <body>
+    <h1 style="color:orange; ">
+      Welcome to my blogging site!
+    </h1>
+     <p id="01"> 
+     <b> Hey there guys im neon and its nice to meet you. welcome to my first webpage. im Gald to share my first web page with you</b>. </p>
+     <p id="02"> there might be some typos in this page but ignore them. if there are any typos. </p>
+     
+     <table>
+         <thead>
+             <th>name</th>
+             <th>age</th>
+             <th>education</th>
+             <th>contact info</th>
+         </thead>
+         <tbody>
+             <tr>
+             <td>neon</td>
+             <td>17</td>
+             <td>12th</td>
+             <td>unknown</td>
+             </tr>
+         </tbody>
+     </table>
+     <ul>
+         <li>A teenage</li>
+         <li>who likes internet</li>
+         <ol>
+             <li>explores internet a lot</li>
+             <li>makes new friends</li>
+             <li>someone who is really sharp</li>
+         </ol>
+         <li>like to learn everyday</li>
+         <li> And a lot</li>
+     </ul>
+     <ol id="03">
+         <li>
+             <a href="https://google.com">Google</a></li>
+         <li>
+             <a href="https://instagram.com">instagram</a>
+         </li>
+     </ol>
+     <br>
+     <button>click here go change its color</button>
+     <br>
+     <br>
+     <form>
+         <input type="text" placeholder="name" name="name" >
+         <input type="number"
+         placeholder="age" name="age" >
+         <input type="number" placeholder="number" name="contact info" >
+         <input type="submit" >
+     </form>
+     <br>
+     <br>
+     <br>
+     <div id="point">
+         <div>1. So, this is my first webpage that i created</div>
+         <br>
+         <div>2. I hope you do like it</div>
+         <br>
+         <div>3. Well if you think it sample ks good</div>
+         <br>
+         <div>4. Then, im really glad to hear that</div>
+         <br>
+         <div>......  see ya soon.!!!</div>
+     </div>
+  </body>
+ </html>
+    
+ 
+       
+  
+    
+        
+  
+  
+    
+      
